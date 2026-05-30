@@ -12,11 +12,15 @@ To write a python program to find the inverse of a matrix
 
 ## Program:
 import os
+
 os.environ["OPENBLAS_NUM_THREADS"]="1"
+
 import numpy as np
 
 a = np.array([[ 6,2,3],[3,1,1],[10,3,4]])
+
 B=np.linalg.inv(a)
+
 print(B)
 ## Output:
 <img width="1295" height="365" alt="image" src="https://github.com/user-attachments/assets/0401ad1a-73e2-438a-af18-43807666d004" />
